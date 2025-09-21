@@ -1,88 +1,77 @@
                                                     ## Java 
-##🏥 Hospital Management System
 
-A Java-based console application designed to manage hospital patients effectively.
-This system allows hospitals to add, view, search, and discharge patients, making patient record handling simple and efficient.
 
-##✨ Features
+# Hospital Management System
 
-🔹 Add Patient → Register new patients with ID, Name, Age, and Disease.
-🔹 Display All Patients → View complete patient details in the system.
-🔹 Search Patient by ID → Quickly find a patient using their unique ID.
-🔹 Discharge Patient → Remove a patient’s record once discharged.
-🔹 Display Admitted Patients → View all patients currently admitted.
-🔹 Exit → Safely exit the system.
+## Project Overview
 
-##🛠️ Technologies Used
+This project is a **Hospital Management System** implemented in Java.
+It allows managing patient information efficiently in a hospital setting.
+Users can **add, search, discharge, and display patients** using a simple console interface.
+The system demonstrates **object-oriented programming concepts** like classes, objects, and encapsulation.
+It is designed to be **easy to use and understand** for beginners learning Java.
 
-Java (Core Java concepts like Classes, Objects, Arrays, Encapsulation)
+## Features
 
-OOP Principles (Encapsulation, Data Abstraction)
+* Add new patients with details like **ID, Name, Age, and Disease**.
+* Display a **list of all patients** in the hospital.
+* Search for a patient using their **unique ID**.
+* Discharge a patient and remove them from the system.
+* Display **currently admitted patients** at any given time.
 
-Scanner Class for user input
+## Classes and Methods
 
-##📂 Project Structure
-HospitalManagementSystem/
-│
-├── HospitalManagementSystem.java   # Main class (menu-driven system)
-├── Patient.java                     # Patient entity with attributes & methods
-└── PatientDetails.java              # Handles patient operations (CRUD logic)
+* **Patient (Class)**: Stores patient information with methods to access and modify data.
+* **PatientDetails (Class)**: Manages an array of Patient objects with methods like `addPatient()`, `displayAll()`, `SearchById()`, `DischargePatient()`, and `AdmittedPatient()`.
+* **HospitalManagementSystem (Class)**: Contains the `main` method and provides a **menu-driven interface** for user interaction.
+* Demonstrates **encapsulation** by using private attributes with getters and setters.
+* Uses **arrays** to store patient objects and keeps track of the total count.
 
-##🧑‍💻 How It Works
+## How to Use
 
-The program starts with a menu-driven interface.
+1. Run the `HospitalManagementSystem` class to start the application.
+2. Use the menu to **add new patients**, display all patients, search by ID, or discharge a patient.
+3. Enter the **required patient details** when prompted.
+4. Select the **appropriate option** to view admitted patients or exit the system.
+5. The system will show messages confirming actions like **patient added** or **discharged successfully**.
 
-The user selects an option (Add, Search, Display, etc.).
+## Sample Output
 
-The corresponding method in PatientDetails is called.
-
-Patients are stored in an array of Patient objects.
-
-The system updates dynamically when patients are added or discharged.
-
-##🔑 Sample Output
+```
 ------Hospital Management System--------
-1. Add Patient
-2. Display All Patient
-3. Search Patient by ID
-4. Discharge Patient
-5. Display Admitted Patients
-6. Exit
+1.Add Patient
+2.Display All Patient
+3.Search Patient by ID
+4.Discharge Patient
+5.Display Admitted Patients
+6.Exit
 Enter your choice: 
-
-
-##➡️ When you add a patient:
-
-Enter Patient Id, Name, Age and Disease:
+1
+Enter Patient Id,Name,age and disease:
 101 John 25 Fever
 Patient Added Successfully
 
+Enter your choice:
+2
+Patient [id=101, name=John, age=25, disease=Fever, isAdmitted=false]
 
-##➡️ When you search by ID:
-
-Enter ID: 
+Enter your choice:
+3
+Enter ID
 101
 Found
 Patient [id=101, name=John, age=25, disease=Fever, isAdmitted=false]
+```
+
+## Learning Outcomes
+
+* Understand **object-oriented programming** with a real-world example.
+* Learn **array management** and dynamic object storage in Java.
+* Practice creating **menu-driven console applications**.
+* Understand **encapsulation and data access** using getters and setters.
+* Gain experience in **handling basic operations** like add, search, and delete in a system.
 
 
-##➡️ When you discharge a patient:
-
-Enter Patient ID 
-101
-Patient Got Discharge Successfully
-Thank You.. Take Care..
-
-
-This project demonstrates the real-world application of Object-Oriented Programming (OOP) in Healthcare Systems.
-
-Encapsulation → Patient data is stored inside the Patient class, accessed through getters & setters.
-
-Abstraction → Complex operations like searching or discharging patients are abstracted in the PatientDetails class.
-
-Arrays of Objects → Used to manage multiple patients efficiently.
-
-Menu-driven console → Makes it interactive and user-friendly.
 -----------------------------------------------------------------------------------------------------------------------------------
 
 ##🏬 Shop Management System
