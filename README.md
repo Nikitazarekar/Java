@@ -1,10 +1,10 @@
-# Java 
-**🏥 Hospital Management System**
+                                                    ## Java 
+##🏥 Hospital Management System
 
 A Java-based console application designed to manage hospital patients effectively.
 This system allows hospitals to add, view, search, and discharge patients, making patient record handling simple and efficient.
 
-**✨ Features**
+##✨ Features
 
 🔹 Add Patient → Register new patients with ID, Name, Age, and Disease.
 🔹 Display All Patients → View complete patient details in the system.
@@ -13,7 +13,7 @@ This system allows hospitals to add, view, search, and discharge patients, makin
 🔹 Display Admitted Patients → View all patients currently admitted.
 🔹 Exit → Safely exit the system.
 
-**🛠️ Technologies Used**
+##🛠️ Technologies Used
 
 Java (Core Java concepts like Classes, Objects, Arrays, Encapsulation)
 
@@ -21,14 +21,14 @@ OOP Principles (Encapsulation, Data Abstraction)
 
 Scanner Class for user input
 
-**📂 Project Structure**
+##📂 Project Structure
 HospitalManagementSystem/
 │
 ├── HospitalManagementSystem.java   # Main class (menu-driven system)
 ├── Patient.java                     # Patient entity with attributes & methods
 └── PatientDetails.java              # Handles patient operations (CRUD logic)
 
-**🧑‍💻 How It Works**
+##🧑‍💻 How It Works
 
 The program starts with a menu-driven interface.
 
@@ -40,7 +40,7 @@ Patients are stored in an array of Patient objects.
 
 The system updates dynamically when patients are added or discharged.
 
-**🔑 Sample Output**
+##🔑 Sample Output
 ------Hospital Management System--------
 1. Add Patient
 2. Display All Patient
@@ -51,14 +51,14 @@ The system updates dynamically when patients are added or discharged.
 Enter your choice: 
 
 
-➡️ When you add a patient:
+##➡️ When you add a patient:
 
 Enter Patient Id, Name, Age and Disease:
 101 John 25 Fever
 Patient Added Successfully
 
 
-➡️ When you search by ID:
+##➡️ When you search by ID:
 
 Enter ID: 
 101
@@ -66,7 +66,7 @@ Found
 Patient [id=101, name=John, age=25, disease=Fever, isAdmitted=false]
 
 
-➡️ When you discharge a patient:
+##➡️ When you discharge a patient:
 
 Enter Patient ID 
 101
@@ -85,12 +85,12 @@ Arrays of Objects → Used to manage multiple patients efficiently.
 Menu-driven console → Makes it interactive and user-friendly.
 -----------------------------------------------------------------------------------------------------------------------------------
 
-**🏬 Shop Management System**
+##🏬 Shop Management System
 
 A simple Java console-based application to manage shop inventory.
 This system allows users to add, search, update, delete, and display products along with calculating the total inventory value.
 
-**✨ Features**
+##✨ Features
 
 ✅ Add new products with ID, Name, Price, and Quantity
 ✅ Display all products neatly
@@ -100,7 +100,7 @@ This system allows users to add, search, update, delete, and display products al
 ✅ Calculate total inventory value in real-time
 ✅ Simple menu-driven interface for smooth navigation
 
-**🛠️ Tech Stack**
+##🛠️ Tech Stack
 
 Language: Java
 
@@ -116,14 +116,14 @@ Loops & Conditional Statements
 
 User Input with Scanner
 
-**📂 Project Structure**
+##📂 Project Structure
 lab5/
 │
 ├── Product.java              # Product class with attributes and methods
 ├── Shop.java                 # Shop class with product management logic
 └── ShopManagementSystem.java # Main menu-driven program
 
-**🚀 How to Run**
+##🚀 How to Run
 
 Clone or download the project.
 
@@ -135,7 +135,7 @@ Run ShopManagementSystem.java.
 
 Use the menu to interact with the shop system.
 
-**🖥️ Sample Menu**
+##🖥️ Sample Menu
 ---- Shop Menu ----
 1. Add Product
 2. Delete Product by ID
@@ -146,7 +146,7 @@ Use the menu to interact with the shop system.
 7. Exit
 Enter your choice: 
 
-**📊 Example Output**
+##📊 Example Output
 ---- Shop Menu ----
 1. Add Product
 2. Delete Product by ID
