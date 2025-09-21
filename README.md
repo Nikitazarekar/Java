@@ -135,20 +135,6 @@ Insufficient funds
 * Gain experience in writing **modular and maintainable code**.
 
 ---------------------------------------------------------------------------------------------------------------------------
-Absolutely! Here’s a **user-friendly README** for your project, which combines both the **Bank Management System** and **Shop Management System**. Each section has a brief, 5-line explanation.
-
----
-
-# Java Management Systems
-
-This project contains two small management systems implemented in Java:
-
-1. **Bank Management System** – to manage different types of bank accounts.
-2. **Shop Management System** – to manage products in a shop inventory.
-   Both systems are **menu-driven console applications** demonstrating OOP concepts.
-   The project is designed to be **easy to understand and practical** for beginners learning Java.
-
----
 
 ## Bank Management System
 
