@@ -201,4 +201,67 @@ Product [id=102, name=Laptop, qty=2, price=55000.0]
 ---- Shop Menu ----
 Enter your choice: 7
 Exiting..
+----------------------------------------------------------------------------------------------------------------------------
+
+**# Bank Management System**
+
+## Project Overview
+
+This project is a simple **Bank Management System** implemented in Java.
+It demonstrates the use of **interfaces**, **classes**, **polymorphism**, and **method overriding**.
+The system supports two types of bank accounts: **Saving Account** and **Fixed Deposit Account**.
+Users can perform basic operations like **deposit**, **withdraw**, and **calculate interest**.
+It helps understand **OOP concepts in Java** with a practical, real-world example.
+
+## Features
+
+* Create and manage **Saving Accounts** and **Fixed Deposit Accounts**.
+* **Deposit money** into an account.
+* **Withdraw money** with a check for sufficient balance.
+* **Calculate interest** automatically based on account type.
+* Display account details in a **clear and user-friendly format**.
+
+## Classes and Interface
+
+* **BankAccount (Interface)**: Declares common methods like `calInterest()` and `display()`.
+* **SavingAccount (Class)**: Implements `BankAccount` for a savings account with 4% interest.
+* **FixDeposite (Class)**: Implements `BankAccount` for a fixed deposit account with 7% interest.
+* **Tester (Class)**: Contains the `main` method to demonstrate functionality.
+* Demonstrates **polymorphism** by using interface references for different account objects.
+
+## How to Use
+
+1. Create objects of `SavingAccount` or `FixDeposite` using the constructor.
+2. Use `deposite(amount)` to add money to the account.
+3. Use `withdraw(amount)` to remove money (balance must be sufficient).
+4. Call `calInterest()` to calculate interest for the account.
+5. Call `display()` to show account details and interest.
+
+## Sample Output
+
+```
+Account holder Name: ABC
+Account No: 1001
+Interest rate: 400.0
+5000 deposited successfully !
+
+Account holder Name: PQR
+Account No: 2001
+Interest rate: 1750.0
+Insufficient funds
+```
+
+* For **SavingAccount**, the interest is calculated as `balance * 0.04`.
+* For **FixDeposite**, the interest is calculated as `balance * 0.07`.
+* Withdrawals check for sufficient balance to avoid negative amounts.
+
+## Learning Outcomes
+
+* Understand **interfaces and their implementation** in Java.
+* Learn **method overriding** and polymorphism with real-world examples.
+* Practice **basic banking operations** programmatically.
+* Understand **interest calculation logic** for different account types.
+* Gain experience in writing **modular and maintainable code**.
+
+
 
